@@ -1,4 +1,6 @@
-<h1>How to Use the Extension:</h1>
+![Screenshot](popup-window.jpg)
+
+<h2>How to Use the Extension:</h1>
 
 1. Install Google Chrome and download the files from this repository to your computer.
 2. Open the file "background.js". Here, you need to include two new API Keys.
