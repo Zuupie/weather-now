@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Popup Document</title>
+        <script src="popup.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main class="Location-area">
+            <div class="icon">
+                <img src="pictures/ip.png" alt="icon" width="64" height="64">
+            </div>
+            <div class="information">
+                <h3>IP - Address</h3>
+                <p id="ipAdressOutput" style="max-width: 125px;">Here is your IP...</p>
+            </div>
+            <div class="icon">
+                <img src="pictures/home.png" alt="icon" width="64" height="64">
+            </div>
+            <div class="information">
+                <h3>Location</h3>
+                <p id="locationOutput">Your location...</p>
+            </div>
+        </main>
+
+        <main class="Weather-area">
+            <div class="icon">
+                <img src="pictures/weather.png" alt="icon" width="64" height="64">
+            </div>
+            <div class="information">
+                <h3>Weather</h3>
+                <p id="mainWeatherOutput">Weather..</p>
+                <p id="wDescripitionOutput">Weather description ...</p>
+                <p id="tempOutput">Your Temperature...</p>
+                <p id="tempMinMaxOutput">min / max Temperature...</p>
+            </div>
+            <div class="information" style="justify-content: end;">
+                <p id="humidityOutput">Humidity..</p>
+                <p id="pressureOutput">Pressure..</p>
+                <p id="windSpeedOutput">Wind speed..</p>
+                <p id="ssOutput">Sunset..</p>
+                <p id="srOutput">Sunrise..</p>
+            </div>
+        </main>
+        <main class="footer">
+                <img src="pictures/reload.png" style="max-width: 30px; max-height: 30px;" id="getButton"><img>
+        </main>
+    </body>
+</html>

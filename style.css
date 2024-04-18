@@ -1,0 +1,78 @@
+body{
+    width: 400px;
+    margin: 0px;
+    padding: 5px;
+    background-color: #a2aab0;
+    border-radius: 50%;
+}
+
+.Location-area{
+    background-color: #E1D7D0;
+     /* #cbc5c1; */
+    margin-bottom: 5px;
+    display: flex;
+    border-radius: 0.2cm;
+}
+
+.Weather-area{
+    background-color: #ebeced; 
+    display: flex;
+}
+
+.footer{
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    background-color: rgb(97, 225, 225);
+}
+
+.footer:hover{
+    background-color: rgb(79, 186, 186);
+}
+
+.footer:active{
+    background-color: rgb(76, 172, 172);
+}
+
+.icon{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #3e3e3b; */
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: flex-start;
+}
+
+p{
+    margin: 2px;
+}
+
+h3{
+    margin: 0px;
+    margin-bottom: 6px;
+}
+
+img{
+    border-radius: 0.2cm;
+}
+
+button{
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 0.09cm; 
+    border-style: none;
+    margin: 2px;
+}
+
+main{
+    border-radius: 0.2cm;
+}
+
