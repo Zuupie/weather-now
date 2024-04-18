@@ -1,3 +1,5 @@
+<h1>Preview:</h1>
+
 ![Screenshot](popup-window.jpg)
 
 <h2>How to Use the Extension:</h1>
